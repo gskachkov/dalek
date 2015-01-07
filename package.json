@@ -1,6 +1,6 @@
 {
   "name": "dalekjs-early",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "description": "A node based cross browser testing tool. Version for early release",
   "main": "./lib/dalek.js",
   "directories": {
@@ -8,7 +8,7 @@
     "test": "test"
   },
   "dependencies": {
-    "dalek-driver-native-early": "0.0.6",
+    "dalek-driver-native-early": "0.0.7",
     "dalek-reporter-console": "0.0.7",
     "dalek-browser-phantomjs": "0.0.4",
     "q": "1.1.2",
