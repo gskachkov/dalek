@@ -1,14 +1,14 @@
 {
-  "name": "dalekjs",
+  "name": "dalekjs-early",
   "version": "0.0.9",
-  "description": "A node based cross browser testing tool",
+  "description": "A node based cross browser testing tool. Version for early release",
   "main": "./lib/dalek.js",
   "directories": {
-    "test": "test",
-    "example": "examples"
+    "example": "examples",
+    "test": "test"
   },
   "dependencies": {
-    "dalek-driver-native": "0.0.6",
+    "dalek-driver-native-early": "0.0.6",
     "dalek-reporter-console": "0.0.7",
     "dalek-browser-phantomjs": "0.0.4",
     "q": "1.1.2",
@@ -48,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/dalekjs/dalek.git"
+    "url": "http://github.com/gskachkov/dalek.git"
   },
   "bugs": {
     "url": "https://github.com/dalekjs/dalek/issues"
@@ -56,11 +56,7 @@
   "keywords": [
     "dalekjs"
   ],
-  "author": {
-    "name": "Sebastian Golasch",
-    "email": "public@asciidisco.com",
-    "url": "http://asciidisco.com"
-  },
+  "author": "Sebastian Golasch <public@asciidisco.com> (http://asciidisco.com)",
   "licenses": [
     {
       "type": "MIT",
@@ -69,5 +65,7 @@
   ],
   "engine": {
     "node": ">=0.10"
-  }
+  },
+  "homepage": "https://github.com/dalekjs/dalek",
+  "license": "MIT"
 }
